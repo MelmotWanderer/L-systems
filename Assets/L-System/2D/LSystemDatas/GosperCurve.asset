@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd3fec241401aef42bdbd57cff383e49, type: 3}
+  m_Name: GosperCurve
+  m_EditorClassIdentifier: 
+  _axiom: 1
+  translateList:
+  - 1 1+0++0-1--11-0+
+  - 0 -1+00++0+1--1-0
+  _angle: 60
+  _iteration: 4
+  _positionDrawer: {x: -3500, y: 1500, z: 0}
+  _lenghtLine: 135
+  _lenghtLeaf: 135
+  _widthLine: 30
+  _widthLeaf: 30
+  _endWidthLeaf: 30
+  _stebelMaterial: {fileID: 2100000, guid: a1cd3cec17671d34db5f1cf8aa4eadbc, type: 2}
+  _leafMaterial: {fileID: 2100000, guid: 5585bc5ec4ee8f6458ece3284dbd87d2, type: 2}

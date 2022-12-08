@@ -7,9 +7,7 @@ using UnityEngine.Rendering;
 using UnityEngine.UIElements;
 
 public class PointCreator
-{
-   
-
+{   
     public Vector2 Position { get; set; }
 
     public PointCreator(float x, float y)
@@ -21,7 +19,7 @@ public class PointCreator
     {
         Position = new Vector2(x, y);
     }
-    public Vector2 CreatePoint(float angle, float lenghtLine, int direction)
+    public Vector2 CreatePoint(float angle, float lenghtLine)
     {
         float currentX = Position.x;
         float currentY = Position.y;
